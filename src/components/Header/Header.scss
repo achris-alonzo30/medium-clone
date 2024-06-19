@@ -1,0 +1,37 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    &__lists {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    &__write,
+    &__notification {
+        background-color: transparent;
+        outline: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__write {
+        &--logo {
+            margin-right: 0.25rem;;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: column;
+
+    &__title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    &__article {
+        &--boundary {
+            height: 100%;
+            width: 100%;
+        }
+
+        &--image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        &--details {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        &--title {
+            font-size: 2.125rem;
+            font-weight: 700;
+        }
+
+        &--author {
+            font-weight: 700;
+            font-size: 1.125rem;
+        }
+
+        &--left,
+        &--right {
+            flex: 1;
+        }
+    }
+
+
+}

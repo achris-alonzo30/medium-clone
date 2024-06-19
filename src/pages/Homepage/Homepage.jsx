@@ -1,7 +1,9 @@
+import { HeroBlog } from "../../components/HeroBlog/HeroBlog"
+
 export const Homepage = () => {
     return (
         <main>
-            <h1>Homepage</h1>
+            <HeroBlog />
         </main>
     )
 }

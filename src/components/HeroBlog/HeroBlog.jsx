@@ -15,7 +15,7 @@ export const HeroBlog = () => {
         <aside className="hero__article--details">
           <hgroup className="hero__article--left">
             <h2 className="hero__article--title">Static Routing and Static Generation</h2>
-            <date className="hero__article--data">March 16, 2020</date>
+            <date className="hero__article--date">March 16, 2020</date>
           </hgroup>
           <hgroup className="hero__article--right">
             <p className="hero__article--description">

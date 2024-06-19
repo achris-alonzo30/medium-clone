@@ -1,10 +1,12 @@
+import "./Articles.scss"
+
 export const Articles = () => {
   return (
     <section className="articles">
-      <h2 className="aritcles__heading">More Articles</h2>
+      <h2 className="articles__heading">More Articles</h2>
       <article className="articles__card">
         <aside className="articles__card--post">
-          <div className="articles__card--content">
+          <div className="articles__card--imagewrapper">
             <img
               src="/images/bg-placeholder.jpg"
               alt="Blog Image"
@@ -27,7 +29,7 @@ export const Articles = () => {
           </hgroup>
         </aside>
         <aside className="articles__card--post">
-          <div className="articles__card--content">
+          <div className="articles__card--imagewrapper">
             <img
               src="/images/bg-placeholder.jpg"
               alt="Blog Image"

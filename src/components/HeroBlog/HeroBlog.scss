@@ -35,7 +35,16 @@
         &--author {
             font-weight: 700;
             font-size: 1.125rem;
+            color: rgba(250, 250, 250, 0.75);
         }
+
+         &--date {
+            color: rgba(200, 200, 200, 0.5);
+         }
+
+         &--description {
+            color: rgba(225, 225, 225, 0.75);
+         }
 
         &--left,
         &--right {

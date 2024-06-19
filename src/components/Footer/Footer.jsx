@@ -1,28 +1,38 @@
+import "./Footer.scss";
+
 export const Footer = () => {
     const year = new Date().getFullYear();
 
   return (
     <footer>
-      <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
-        <div className="flex flex-col items-baseline space-y-6">
-          <div className="mx-auto">
-            <img src="/svg/logo.svg" alt="logo" height="24" width="24" className="mx-auto text-lg text-center" />
+      <nav className="footer">
+        <aside className="footer__body">
+          <div >
+            <img src="/svg/logo.svg" alt="logo" height="24" width="24"  />
           </div>
-          <div className="mx-auto" x-data="{ year: new Date().getFullYear() }">
+          <hgroup className="footer__copyright" x-data="{ year: new Date().getFullYear() }">
             <span className="mx-auto mt-2 text-sm font-medium text-gray-500">
-              Copyright © <span x-text="year">{year}</span>
+              Copyright © <span x-text="year">{year} </span>
               <a
-                aria-label="Michael Andreuzza"
-                href="#_"
-                className="mx-2 text-blue-500 hover:text-gray-500"
+                target="_blank"
+                href="https://linkedin/in/lonzochris"
+                className="footer__author"
               >
-                Christopher Alonzo
+                Christopher Alonzo{" "} 
               </a>
-              | BrainStation
+              |
+              <a
+                target="_blank"
+                href="https://brainstation.io"
+                className="footer__author"
+              >
+                {" "}BrainStation
+              </a>
+              
             </span>
-          </div>
-        </div>
-      </div>
+          </hgroup>
+        </aside>
+      </nav>
     </footer>
   );
 };

@@ -1,6 +1,6 @@
 import "./Articles.scss"
 
-export const Articles = () => {
+export const Blogs = () => {
   return (
     <section className="articles">
       <h2 className="articles__heading">More Articles</h2>

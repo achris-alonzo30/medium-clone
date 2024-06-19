@@ -1,4 +1,4 @@
-import "./Articles.scss"
+import "./Blogs.scss"
 
 export const Blogs = () => {
   return (

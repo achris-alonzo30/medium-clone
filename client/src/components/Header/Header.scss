@@ -1,0 +1,46 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    background-color: #242424;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    
+    &__lists {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    &__write,
+    &__notification {
+        background-color: transparent;
+        outline: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__write {
+        text-decoration: none;
+        color: inherit;
+        &--logo {
+            margin-right: 0.25rem;;
+        }
+    }
+
+
+
+}
+
+.tranparent {
+    background-color: #242424;
+    border-bottom: 1px solid antiquewhite;
+    box-shadow: 5px 5px 15px 5px #ffffff
+}

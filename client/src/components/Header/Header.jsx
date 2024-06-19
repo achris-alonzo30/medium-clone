@@ -11,7 +11,6 @@ import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   const scrolled = useScrollTop();
-  console.log(scrolled)
   return (
     <header className={`header ${scrolled && "transparent"}`}>
       <NavLink to="/" className="header__title">

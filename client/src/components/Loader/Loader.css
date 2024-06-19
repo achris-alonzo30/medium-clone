@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Avenir Next Pro Lt";
+  src: url("../../assets/fonts/AvenirNextLTPro-Regular.otf") format("opentype"), url("../../assets/fonts/alternative-files/AvenirNextLTPro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Avenir Next Pro Lt";
+  src: url("../../assets/fonts/AvenirNextLTPro-Demi.otf") format("opentype"), url("../../assets/fonts/alternative-files/AvenirNextLTProDemi.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Avenir Next Pro Lt";
+  src: url("../../assets/fonts/AvenirNextLTPro-Bold.otf") format("opentype"), url("../../assets/fonts/alternative-files/AvenirNextLTProBold.ttf") format("truetype");
+  font-weight: 700;
+}
+/* -----------------------------------------------------------*/
+/* --------------- Mixins for responsive design --------------*/
+/* -----------------------------------------------------------*/
+/* ----------------------------------------------------------*/
+/* -------------------- Mixins for fonts --------------------*/
+/* ----------------------------------------------------------*/
+/* ----------------------------------------------------------*/
+/* ---------------------- Mixin Divider ---------------------*/
+/* ----------------------------------------------------------*/
+.divider {
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.loader {
+  gap: 1rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.loader__logo {
+  width: 5%;
+  height: 5%;
+  animation: spin 1s linear infinite;
+}
+.loader__text {
+  font-family: "Avenir Next Pro Lt", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375em;
+  color: #000000;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Loader.css.map */

@@ -6,8 +6,9 @@ import {
   SignInButton,
   UserButton,
 } from "@clerk/clerk-react";
-import { useScrollTop } from "../../hooks/useScrollTop";
 import { NavLink } from "react-router-dom";
+import { useScrollTop } from "../../hooks/useScrollTop";
+
 
 export const Header = () => {
   const scrolled = useScrollTop();

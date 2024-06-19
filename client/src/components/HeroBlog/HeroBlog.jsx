@@ -11,11 +11,10 @@ export const HeroBlog = ({ selectedArticleId }) => {
    }, [selectedArticleId]);
 
    if (!selectedArticle) return <></>
-   console.log(selectedArticle)
    const { title, date_created, author, image, description } = selectedArticle;
   return (
     <section className="hero">
-      <h1 className="hero__title">Blog.</h1>
+      <h1 className="hero__title">Medium.</h1>
 
       <article className="hero__article">
         <aside className="hero__article--boundary">

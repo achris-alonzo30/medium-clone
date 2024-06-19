@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     position: sticky;
+    z-index: 1;
     align-items: center;
     background-color: #242424;
     border-bottom: 1px solid white;
@@ -17,6 +18,8 @@
     &__list {
         text-decoration: none;
         list-style-type: none;
+        display: flex;
+        align-items: center;
     }
 
     &__write,
@@ -33,6 +36,10 @@
         &--logo {
             margin-right: 0.25rem;;
         }
+    }
+
+    &__notification {
+        margin-right: 1rem;
     }
 
 

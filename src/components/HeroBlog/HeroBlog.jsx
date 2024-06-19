@@ -1,6 +1,9 @@
+
 import "./HeroBlog.scss";
 
 export const HeroBlog = () => {
+   
+
   return (
     <section className="hero">
       <h1 className="hero__title">Blog.</h1>

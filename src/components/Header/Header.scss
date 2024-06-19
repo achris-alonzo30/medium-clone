@@ -5,8 +5,9 @@
     display: flex;
     position: sticky;
     align-items: center;
+    background-color: #242424;
+    border-bottom: 1px solid white;
     justify-content: space-between;
-    
     
     &__lists {
         display: flex;
@@ -34,4 +35,10 @@
 
 
 
+}
+
+.tranparent {
+    background-color: #242424;
+    border-bottom: 1px solid antiquewhite;
+    box-shadow: 5px 5px 15px 5px #ffffff
 }

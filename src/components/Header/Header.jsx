@@ -6,10 +6,13 @@ import {
   SignInButton,
   UserButton,
 } from "@clerk/clerk-react";
+import { useScrollTop } from "../../hooks/useScrollTop";
 
 export const Header = () => {
+  const scrolled = useScrollTop();
+  console.log(scrolled)
   return (
-    <header className="header">
+    <header className={`header ${scrolled && "transparent"}`}>
       <h1 className="header__title">
         <img src="/svg/logo.svg" alt="Write Logo" width="50" height="50" />
       </h1>
